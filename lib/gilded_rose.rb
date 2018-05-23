@@ -1,3 +1,7 @@
+require File.join(File.dirname(__FILE__), '/item')
+require File.join(File.dirname(__FILE__), '/string')
+require File.join(File.dirname(__FILE__), '/item_list')
+
 class GildedRose
 
   def initialize(items)
