@@ -3,6 +3,7 @@
     "coverage": {
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/spec/gilded_rose_spec.rb": [
         1,
+        1,
         null,
         1,
         null,
@@ -70,23 +71,38 @@
         null,
         null,
         null,
-        null,
-        null,
+        null
+      ],
+      "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item.rb": [
         1,
         1,
         null,
         1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
         null,
         null,
         1,
         0,
         null,
         null
+      ],
+      "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/spec/item_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1527076700
+    "timestamp": 1527077613
   }
 }

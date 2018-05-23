@@ -1,4 +1,5 @@
 require File.join(File.dirname(__FILE__), '../lib/gilded_rose')
+require File.join(File.dirname(__FILE__), '../lib/item')
 
 describe GildedRose do
 
