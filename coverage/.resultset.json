@@ -1,7 +1,22 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/spec/gilded_rose_spec.rb": [
+        1,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ]
     },
-    "timestamp": 1527071851
+    "timestamp": 1527074718
   }
 }
