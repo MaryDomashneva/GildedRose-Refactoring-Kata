@@ -1,11 +1,16 @@
 require File.join(File.dirname(__FILE__), '/item')
 require File.join(File.dirname(__FILE__), '/string')
-require File.join(File.dirname(__FILE__), '/item_list')
+require File.join(File.dirname(__FILE__), '/items_list')
 
 class GildedRose
+attr_accessor :list
 
-  def initialize(items)
-    @items = items
+  def initialize(list = Itemslist.new)
+    @list = list
+  end
+
+  def indefinite?(item)
+    item.name == 'Sulfuras'
   end
 
   def update_quality()
