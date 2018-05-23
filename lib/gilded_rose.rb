@@ -9,10 +9,6 @@ attr_accessor :list
     @list = list
   end
 
-  def indefinite?(item)
-    item.name == 'Sulfuras'
-  end
-
   def update_quality()
     @items.each do |item|
       if item.name != "Aged Brie" and item.name != "Backstage passes to a TAFKAL80ETC concert"
@@ -59,5 +55,43 @@ attr_accessor :list
         end
       end
     end
+  end
+
+  private
+
+  def indefinite?(item)
+    item.name == 'Sulfuras'
+  end
+
+  def legendary?(item)
+    item.name == 'Backstage passes' or item.name == 'Aged Brie'
+  end
+
+  def still_sell_in?(item)
+    item.sell_in > 0
+  end
+
+  def riched_quality_limit?(item)
+    item.quality >= 50
+  end
+
+  def sell_in_time_line_one?(item)
+    5 < item.sell_in && item.sell_in<= 10
+  end
+
+  def sell_in_time_line_two?(item)
+    0 < item.sell_in && item.sell_in<= 5
+  end
+
+  def decrease_quality(item)
+    item.quality -= 1
+  end
+
+  def double_decrease_quality(item)
+    item.quality -= 2
+  end
+
+  def decrease_sell_in(item)
+    item.sell_in -=1
   end
 end
