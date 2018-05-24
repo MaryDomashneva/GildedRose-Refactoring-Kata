@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/MaryDomashneva/GildedRose-Refactoring-Kata.svg?branch=master)](https://travis-ci.org/MaryDomashneva/GildedRose-Refactoring-Kata)
 
-Gilded Rostech test
+Gilded Rose tech test
 =================
 
 ## Gilded Rose Requirements Specification
