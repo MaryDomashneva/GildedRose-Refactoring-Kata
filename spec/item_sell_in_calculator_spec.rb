@@ -20,11 +20,11 @@ describe ItemSellInCalculator do
   describe '#calculate_sell_in_for_item' do
     let(:sell_in_calculator) { ItemSellInCalculator.new(new_item_categorizer) }
 
-    it 'counts down sell in days for not INDEFINATE items' do
+    it 'counts down sell in days for not INDEFINITE items' do
       expect(sell_in_calculator.calculate_sell_in_for_item(new_item)).to eq(29)
     end
 
-    it 'returns not changed sell in days for INDEFINATE items' do
+    it 'returns not changed sell in days for INDEFINITE items' do
       expect(sell_in_calculator.calculate_sell_in_for_item(ind_item)).to eq(30)
     end
   end
