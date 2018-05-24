@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), './item_categorizer')
 
-# Returns step of quality change depending on time line
+# Returns step of quality change depending on the timeline
 class ItemQualityChangeStep
   attr_accessor :item_categorizer
 

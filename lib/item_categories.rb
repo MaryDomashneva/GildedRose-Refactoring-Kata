@@ -1,5 +1,5 @@
 
-# Class contains item category as constants
+# Class contains Item category as constants
 class ItemCategory
   BACKSTAGE_PASS = 'backstage_pass'.freeze
   AGED_BRIE = 'aged_brie'.freeze

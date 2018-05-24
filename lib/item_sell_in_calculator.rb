@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), './item_categorizer')
 
-# Class counts down sell in days depending on Item Category
+# Class counts down sell-in days depending on Item Category
 class ItemSellInCalculator
   attr_accessor :item_categorizer
 

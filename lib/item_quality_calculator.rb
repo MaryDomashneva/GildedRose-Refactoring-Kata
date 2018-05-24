@@ -2,7 +2,7 @@ require File.join(File.dirname(__FILE__), './item_quality_multiplier')
 require File.join(File.dirname(__FILE__), './item_categorizer')
 require File.join(File.dirname(__FILE__), './item_quality_change_step')
 
-# Returns new quality of item
+# Returns new quality of an Item
 class ItemQualityCalculator
   attr_accessor :quality_multiplier, :quality_change_step, :item_categorizer
 

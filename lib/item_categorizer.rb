@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), './item_categories')
 
-# Class returns the category of item by name
+# Class returns the category of Item by name
 class ItemCategorizer
   def categorize(item)
     return ItemCategory::BACKSTAGE_PASS if backstage_pass?(item)

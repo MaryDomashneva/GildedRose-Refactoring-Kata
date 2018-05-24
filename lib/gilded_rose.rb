@@ -2,7 +2,7 @@ require File.join(File.dirname(__FILE__), '/item')
 require File.join(File.dirname(__FILE__), '/item_quality_calculator')
 require File.join(File.dirname(__FILE__), '/item_sell_in_calculator')
 
-# Class responsible for items quality update
+# Class responsible for Items quality update
 class GildedRose
   attr_accessor :items, :item_quality_calculator, :item_sell_in_calculator
 
