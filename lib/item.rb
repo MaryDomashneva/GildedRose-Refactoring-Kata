@@ -14,18 +14,3 @@ class Item
     "#{@name}, #{@sell_in}, #{@quality}"
   end
 end
-
-
-class Plane
-  def move
-      "it flies"
-    end
-end
-
-class Boat
-  def move
-    'it swims'
-  end
-end
-
-thing.move
