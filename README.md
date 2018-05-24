@@ -58,6 +58,6 @@ legendary item and as such its Quality is 80 and it never alters.
 
 ### Example
 
-* Project root contains two files ```original_test_output.txt``` and ```after_refactoring_otput.txt``` and you can see that they are the same.
+* Project folder ```feature_tests_output``` contains two files ```original_test_output.txt``` and ```after_refactoring_otput.txt``` and you can see that they are the same.
 * To make sure, run tests: from folder spec run ```$ ruby texttest_fixture.rb``` and the number of days you want to see.
 * In order to run tests, clone project, install ruby 2.5.0, install Rspec ```gem 'rspec'``` and ```rspec``` command in terminal.
