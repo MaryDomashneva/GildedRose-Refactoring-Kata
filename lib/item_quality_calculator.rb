@@ -20,10 +20,12 @@ class ItemQualityCalculator
     @item_categorizer = item_categorizer
   end
 
+# ?
   def calculate_quality_for_item(item)
     item_category = @item_categorizer.categorize(item)
+    item.quality
     return QUALITY_LOW_LIMIT if low_limit_quality?(item.sell_in, item_category)
-    return QUALITY_LIMIT_INDEFINITE if item_category == ItemCategory::INDEFINITE
+    return QUALITY_LIMIT_INDEFINITE if item_category == ItemCategory::INDEFINITE # type checking
 
     quaility_step = @quality_change_step.quality_step_for_item(item)
     quaility_step_multiplier = @quality_multiplier.multiplier_for_item(item)
