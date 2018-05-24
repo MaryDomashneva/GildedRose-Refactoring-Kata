@@ -49,6 +49,7 @@
         1,
         1,
         null,
+        null,
         1,
         1,
         null,
@@ -69,6 +70,7 @@
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item.rb": [
         1,
         null,
+        null,
         1,
         1,
         null,
@@ -87,6 +89,7 @@
         1,
         1,
         1,
+        null,
         null,
         1,
         1,
@@ -121,11 +124,11 @@
         1,
         8,
         null,
-        null,
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_quality_multiplier.rb": [
         1,
+        null,
         null,
         1,
         1,
@@ -140,18 +143,18 @@
         9,
         9,
         9,
-        9,
-        9,
-        9,
         null,
+        9,
+        9,
+        9,
         null,
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_categorizer.rb": [
         1,
         null,
-        1,
         null,
+        1,
         1,
         40,
         30,
@@ -180,6 +183,8 @@
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_categories.rb": [
+        null,
+        null,
         1,
         1,
         1,
@@ -190,6 +195,7 @@
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_quality_change_step.rb": [
         1,
+        null,
         null,
         1,
         1,
@@ -224,11 +230,11 @@
         null,
         null,
         null,
-        null,
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_sell_in_calculator.rb": [
         1,
+        null,
         null,
         1,
         1,
@@ -240,7 +246,6 @@
         1,
         7,
         7,
-        null,
         null,
         null
       ],
@@ -474,6 +479,6 @@
         null
       ]
     },
-    "timestamp": 1527171789
+    "timestamp": 1527172443
   }
 }

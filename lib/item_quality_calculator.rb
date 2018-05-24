@@ -2,6 +2,7 @@ require File.join(File.dirname(__FILE__), './item_quality_multiplier')
 require File.join(File.dirname(__FILE__), './item_categorizer')
 require File.join(File.dirname(__FILE__), './item_quality_change_step')
 
+# Returns new quality of item
 class ItemQualityCalculator
   attr_accessor :quality_multiplier, :quality_change_step, :item_categorizer
 
@@ -35,5 +36,4 @@ class ItemQualityCalculator
   def low_limit_quality?(sell_in, item_category)
     item_category == ItemCategory::BACKSTAGE_PASS && sell_in <= 0
   end
-
 end

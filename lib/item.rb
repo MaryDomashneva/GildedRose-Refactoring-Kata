@@ -1,5 +1,6 @@
 require File.join(File.dirname(__FILE__), '../lib/gilded_rose')
 
+# Class responsible for creating an Item
 class Item
   attr_accessor :name, :sell_in, :quality
 
@@ -9,7 +10,7 @@ class Item
     @quality = quality
   end
 
-  def to_s()
+  def to_s
     "#{@name}, #{@sell_in}, #{@quality}"
   end
 end

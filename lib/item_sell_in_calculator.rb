@@ -1,5 +1,6 @@
 require File.join(File.dirname(__FILE__), './item_categorizer')
 
+# Class counts down sell in days depending on Item Category
 class ItemSellInCalculator
   attr_accessor :item_categorizer
 
@@ -11,5 +12,4 @@ class ItemSellInCalculator
     item_category = @item_categorizer.categorize(item)
     item_category == ItemCategory::INDEFINITE ? item.sell_in : item.sell_in - 1
   end
-
 end

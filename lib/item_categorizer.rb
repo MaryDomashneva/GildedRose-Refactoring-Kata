@@ -1,13 +1,13 @@
 require File.join(File.dirname(__FILE__), './item_categories')
 
+# Class returns the category of item by name
 class ItemCategorizer
-  
   def categorize(item)
     return ItemCategory::BACKSTAGE_PASS if backstage_pass?(item)
     return ItemCategory::AGED_BRIE if aged_brie?(item)
     return ItemCategory::INDEFINITE if indefinite?(item)
     return ItemCategory::FAST_QUALITY_LOSER if fast_quality_loser?(item)
-    return ItemCategory::NORMAL
+    ItemCategory::NORMAL
   end
 
   private
