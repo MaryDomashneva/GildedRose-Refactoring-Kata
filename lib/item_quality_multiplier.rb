@@ -1,6 +1,7 @@
 require File.join(File.dirname(__FILE__), './item_categorizer')
 
 class ItemQualityMultiplier
+  attr_accessor :item_categorizer
 
   DEFAULT_MULTIPLIER = -1
 

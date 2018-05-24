@@ -1,6 +1,7 @@
 require File.join(File.dirname(__FILE__), './item_categorizer')
 
 class ItemSellInCalculator
+  attr_accessor :item_categorizer
 
   def initialize(item_categorizer = ItemCategorizer.new)
     @item_categorizer = item_categorizer

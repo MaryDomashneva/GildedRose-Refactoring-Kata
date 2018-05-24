@@ -9,4 +9,11 @@ describe Item do
       expect(new_item.quality).to eq(50)
     end
   end
+
+  describe '#to_s' do
+    it 'produces a string' do
+      new_item = Item.new('Club_mate', 30, 50)
+      expect(new_item.to_s()).to eq('Club_mate, 30, 50')
+    end
+  end
 end

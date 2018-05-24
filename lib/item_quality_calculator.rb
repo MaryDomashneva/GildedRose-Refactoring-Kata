@@ -3,6 +3,7 @@ require File.join(File.dirname(__FILE__), './item_categorizer')
 require File.join(File.dirname(__FILE__), './item_quality_change_step')
 
 class ItemQualityCalculator
+  attr_accessor :quality_multiplier, :quality_change_step, :item_categorizer
 
   QUALITY_LIMIT_INDEFINITE = 80
   QUALITY_HIGH_LIMIT = 50

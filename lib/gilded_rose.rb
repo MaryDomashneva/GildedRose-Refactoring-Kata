@@ -3,6 +3,7 @@ require File.join(File.dirname(__FILE__), '/item_quality_calculator')
 require File.join(File.dirname(__FILE__), '/item_sell_in_calculator')
 
 class GildedRose
+  attr_accessor :items, :item_quality_calculator, :item_sell_in_calculator
 
   def initialize(items)
     @items = items

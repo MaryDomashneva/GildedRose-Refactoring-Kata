@@ -1,6 +1,7 @@
 require File.join(File.dirname(__FILE__), './item_categories')
 
 class ItemCategorizer
+  
   def categorize(item)
     return ItemCategory::BACKSTAGE_PASS if backstage_pass?(item)
     return ItemCategory::AGED_BRIE if aged_brie?(item)
