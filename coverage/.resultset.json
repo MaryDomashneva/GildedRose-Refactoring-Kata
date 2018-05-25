@@ -18,6 +18,7 @@
         1,
         1,
         1,
+        1,
         null,
         null,
         1,
@@ -29,10 +30,6 @@
         null,
         1,
         1,
-        5,
-        5,
-        null,
-        5,
         5,
         null,
         null,
@@ -56,6 +53,17 @@
         null,
         null
       ],
+      "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/main_factory.rb": [
+        1,
+        1,
+        5,
+        5,
+        null,
+        5,
+        5,
+        null,
+        null
+      ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_quality_updaters/item_quality_updaters_factory.rb": [
         1,
         1,
@@ -63,8 +71,8 @@
         1,
         1,
         null,
-        1,
         null,
+        1,
         1,
         null,
         null,
@@ -122,6 +130,7 @@
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_quality_updaters/backstage_pass_item_quality_updater.rb": [
+        null,
         1,
         1,
         1,
@@ -139,11 +148,11 @@
         1,
         1,
         1,
-        null,
         null,
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_quality_updaters/aged_brie_item_quality_updater.rb": [
+        null,
         1,
         1,
         1,
@@ -157,6 +166,7 @@
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_quality_updaters/fast_quality_loser_item_quality_updater.rb": [
+        null,
         1,
         1,
         1,
@@ -170,6 +180,7 @@
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_quality_updaters/normal_item_quality_updater.rb": [
+        null,
         1,
         1,
         1,
@@ -186,8 +197,8 @@
         1,
         1,
         null,
-        1,
         null,
+        1,
         1,
         null,
         null,
@@ -202,6 +213,7 @@
         null
       ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/lib/item_sell_in_updaters/default_item_sell_in_updater.rb": [
+        null,
         1,
         1,
         5,
@@ -287,23 +299,6 @@
         null,
         null
       ],
-      "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/spec/item_sell_in_updaters_factory_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
       "/Users/mariagetmanova/Desktop/Makers_Projects/GildedRose-Refactoring-Kata/spec/item_spec.rb": [
         1,
         null,
@@ -326,6 +321,6 @@
         null
       ]
     },
-    "timestamp": 1527239299
+    "timestamp": 1527250432
   }
 }
