@@ -1,3 +1,4 @@
+# class for fast quality items
 class FastQualityLoserItemQualityUpdater
   def update(item)
     item.quality = [item.quality - quality_step(item), 0].max

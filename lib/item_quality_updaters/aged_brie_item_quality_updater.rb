@@ -1,3 +1,4 @@
+# class for aged bri items
 class AgedBrieItemQualityUpdater
   def update(item)
     item.quality = [item.quality + quality_step(item), 50].min

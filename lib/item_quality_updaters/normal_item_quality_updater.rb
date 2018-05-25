@@ -1,3 +1,4 @@
+# class for normal items
 class NormalItemQualityUpdater
   def update(item)
     item.quality = [item.quality - quality_step(item), 0].max

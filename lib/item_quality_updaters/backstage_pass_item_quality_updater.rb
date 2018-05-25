@@ -1,3 +1,4 @@
+# class for backstage items
 class BackstagePassItemUpdater
   def update(item)
     item.quality = 0 if low_limit_quality?(item)
@@ -16,5 +17,4 @@ class BackstagePassItemUpdater
     return 2 if item.sell_in < 10
     1
   end
-
 end

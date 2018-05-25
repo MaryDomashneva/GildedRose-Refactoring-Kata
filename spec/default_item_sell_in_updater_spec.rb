@@ -1,4 +1,5 @@
 require File.join(File.dirname(__FILE__), '../lib/gilded_rose')
+
 describe DefaultSellInItemUpdater do
   describe '#udate' do
     let(:normal_item) { Item.new('Club_mate', 30, 50) }
