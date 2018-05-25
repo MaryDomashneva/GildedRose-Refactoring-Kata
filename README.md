@@ -55,7 +55,26 @@ legendary item and as such its Quality is 80 and it never alters.
 
 ### Project description
 
- 
+The app architecture has 3 levels:
+##### I LEVEL Classes (responsible for creating Item and Item class):
+1. ```Item``` - responsible for creating a new item
+and all existed Item classes created with similar architecture:
+2. ```AgedBrieItemQualityUpdater```
+3. ```BackstagePassItemUpdater```
+4. ```FastQualityLoserItemQualityUpdater```
+5. ```NormalItemQualityUpdater```
+If further, we need to add more items with a specific behavior, we will create a new class following the existed architecture.
+
+##### II LEVEL Classes (responsible for or update quality and sell in days, of item class):
+1. ```GildedRose``` - interface class, MainFactory called inside
+2. ```MainFactory``` - responsible for update item sell in days and quality
+3. ```ItemSellInUpdatersFactory``` - responsible for update item sell in days
+4. ```ItemQualityUpdatersFactory``` - responsible for update quality
+
+##### II Level Classes (2d level class helpers):
+1. ```ItemCategory```
+2. ```ItemCategorizer```
+3. ```DefaultSellInItemUpdater```
 
 ### Example
 
