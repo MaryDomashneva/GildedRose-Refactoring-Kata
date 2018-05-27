@@ -3,7 +3,7 @@
 Gilded Rose tech test
 =================
 
-## Gilded Rose Requirements Specification
+## Gilded Rose Requirements Specification:
 
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
@@ -41,19 +41,19 @@ for you).
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
 
-## Result
+## Result:
 
-#### Technology used
+#### Technology used:
 
 * Ruby 2.5.0
 * Rspec
 * Rubocop
 * Simplecov
 
-#### Run project
+#### Run project:
 * The easiest way to try project is in IRB: ```inside terminal irb -r./lib/gilded_rose.rb```
 
-### Project description
+### Project description:
 
 The app architecture has 3 levels:
 ##### I LEVEL Classes (responsible for creating Item and Item class):
@@ -76,7 +76,7 @@ If further, we need to add more items with a specific behavior, we will create a
 2. ```ItemCategorizer```
 3. ```DefaultSellInItemUpdater```
 
-### Example
+### Example:
 
 * Project folder ```feature_tests_output``` contains two files ```original_test_output.txt``` and ```after_refactoring_otput.txt``` and you can see that they are the same.
 * To make sure, run tests: from folder spec run ```$ ruby texttest_fixture.rb``` and the number of days you want to see.
